@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feliz Cumple, Mariquita</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div class="hearts-bg">
+    <span class="heart h1"></span>
+    <span class="heart h2"></span>
+    <span class="heart h3"></span>
+    <span class="heart h4"></span>
+    <span class="heart h5"></span>
+  </div>
+
+  <!-- Confetti container -->
+  <div id="confetti-container"></div>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>¡Feliz Cumple, Mariquita!</h1>
+          <p class="hero-sub">
+            Hoy cumple años la bebé mas dramatica, enojona, berrinchuda y hermosa del universo
+          </p>
+          <div class="hero-buttons">
+            <a href="#mensaje" class="btn pastel">Mensaje bonito</a>
+            <a href="#momentos" class="btn outline">Tu y yop</a>
+          </div>
+        </div>
+
+        <div class="hero-illustration">
+
+          <img
+            src="./imagenes/SnoopyCumple.png"
+            alt="Snoopy bailando"
+            class="snoopy snoopy-dancing"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- LOVE MESSAGE -->
+    <section id="mensaje" class="section message">
+      <div class="section-heading">
+        <h2>Un Mensajito Desde Mi Corazón</h2>
+      </div>
+      <div class="message-content">
+        <div class="message-text card">
+          <!-- You can replace this paragraph with your own heartfelt message -->
+          <p>
+            Mariquita, primero que nada quiero desearte un bonito y feliz cumpleaños,
+            soy muy malo para poner en palabras lo que siento y quiero transmitirte. Se que los ultimos días 
+            han sido de tensión pero solo quiero reafirmarte que te amo, que me haces feliz aunque siempre 
+            tengas ganas de pelear, aunque solo me hagas preguntas que no tienen respuesta correcta para enojarte 
+            y que te de amor jajaj, a pesar de las poquitas cosas malas que hemos pasado la verdad es que contigo 
+            me siento muy agusto, siento que puedo ser simplemente yo y que no tengo que hacerme pasar por alguien mas 
+            o comportarme de una manera diferente. Quiero darte las gracias por ayudarme a mejorar cada día, por escucharme 
+            cuando el estres se me junta y quiero explotar, y sobretodo por ser una excelente novia. Te amo cabecita de melon, felices 22!
+  
+          </p>
+        </div>
+
+        <div class="message-snoopy">
+          <!-- SNOOPY HUGGING WOODSTOCK IMAGE -->
+          <!-- TODO: Replace src with your Snoopy hugging Woodstock PNG -->
+          <img
+            src="./imagenes/snoopyabrazo.png"
+            alt="Snoopy abrazando a Woodstock"
+            class="snoopy snoopy-hug"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY / POLAROIDS -->
+    <section id="momentos" class="section gallery">
+      <div class="section-heading">
+        <h2>Nuestros Momentos 💕</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- POLAROID 1 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_1 with your own photo URL -->
+          <img src="./imagenes/Ecovia.jpg" alt="Nuestro momento 1" />
+          <figcaption>Cuando te vi en la ecovia justo un 27 jeje</figcaption>
+        </figure>
+
+        <!-- POLAROID 2 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_2 with your own photo URL -->
+          <img src="./imagenes/estadio2.png" alt="Nuestro momento 2" />
+          <figcaption>Nuestra primer ida al estadio con el mismo jersey</figcaption>
+        </figure>
+
+        <!-- POLAROID 3 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_3 with your own photo URL -->
+          <img src="./imagenes/MariadeMaria.PNG" alt="Nuestro momento 3" />
+          <figcaption>Cuando te obligue a vestirte de Maria</figcaption>
+        </figure>
+
+        <!-- POLAROID 4 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_4 with your own photo URL -->
+          <img src="./imagenes/Cena.jpeg" alt="Nuestro momento 4" />
+          <figcaption>Esa foto me gusta mucho, te ves muy bonita</figcaption>
+        </figure>
+
+        <!-- POLAROID 5 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_5 with your own photo URL -->
+          <img src="./imagenes/estadio1.png" alt="Nuestro momento 5" />
+          <figcaption>La primer ida al estadio</figcaption>
+        </figure>
+
+        <!-- POLAROID 6 -->
+        <figure class="polaroid">
+          <!-- TODO: Replace IMAGE_URL_6 with your own photo URL -->
+          <img src="./imagenes/Favorita.png" alt="Nuestro momento 6" />
+          <figcaption>Mi foto favorita de ti jejeje</figcaption>
+        </figure>
+      </div>
+
+      <!-- Decorative Snoopy between sections -->
+      <div class="between-sections">
+        <!-- SNOOPY HOLDING BALLOONS IMAGE -->
+        <!-- TODO: Replace src with your Snoopy holding balloons PNG -->
+        <img
+          src="./imagenes/snoopyhb.png"
+          alt="Snoopy con globos"
+          class="snoopy snoopy-balloons"
+        />
+      </div>
+    </section>
+
+    <!-- REASONS I LOVE YOU -->
+    <section id="razones" class="section reasons">
+      <div class="section-heading">
+        <h2>Razones por las que te amo</h2>
+      </div>
+
+      <div class="reasons-content card">
+        <ul class="reason-list">
+          <li>Porque siempre quieres pelear</li>
+          <li>Siempre estas para escucharme</li>
+          <li>Por la manera en la que me cuidas</li>
+          <li>Por hacer que un dia que no me gusta lo disfrutara</li>
+          <li>Porque tienes 2 voces aunque lo niegues</li>
+          <li>Porque a tu lado aprendí lo que significa sentirse en casa.</li>
+        </ul>
+      </div>
+
+      <div class="reasons-snoopy">
+        <!-- SNOOPY SLEEPING ON DOGHOUSE IMAGE -->
+        <!-- TODO: Replace src with your Snoopy sleeping PNG -->
+        <img
+          src="./imagenes/snoopycasa.png"
+          alt="Snoopy durmiendo sobre su casita"
+          class="snoopy snoopy-sleep"
+        />
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-text">
+        <p>
+          Gracias por existir, por dejarme acompañarte y por ser mi lugar favorito.
+          Deseo de todo corazón que tus 22 sean un año de metas y sueños cumplidos.
+        </p>
+        <p class="footer-sign">Con todo mi amor, siempre. 💖</p>
+      </div>
+
+      <!-- Floating balloon emojis -->
+      <div class="balloons">
+        <span class="balloon b1">🎈</span>
+        <span class="balloon b2">🎈</span>
+        <span class="balloon b3">🎈</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
